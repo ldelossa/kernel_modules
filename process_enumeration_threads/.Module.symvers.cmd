@@ -1,0 +1,1 @@
+cmd_/root/modules/process_enumeration_threads/Module.symvers := sed 's/ko$$/o/' /root/modules/process_enumeration_threads/modules.order | scripts/mod/modpost     -o /root/modules/process_enumeration_threads/Module.symvers -e -i Module.symvers   -T -

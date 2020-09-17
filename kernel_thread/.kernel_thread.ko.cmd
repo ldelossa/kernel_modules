@@ -1,0 +1,1 @@
+cmd_/root/modules/kernel_thread/kernel_thread.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /root/modules/kernel_thread/kernel_thread.ko /root/modules/kernel_thread/kernel_thread.o /root/modules/kernel_thread/kernel_thread.mod.o;  true

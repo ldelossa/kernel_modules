@@ -1,0 +1,1 @@
+cmd_/root/modules/init_task/init_task.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /root/modules/init_task/init_task.ko /root/modules/init_task/init_task.o /root/modules/init_task/init_task.mod.o;  true

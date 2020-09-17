@@ -1,0 +1,1 @@
+cmd_/root/modules/skeleton/skeleton.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /root/modules/skeleton/skeleton.ko /root/modules/skeleton/skeleton.o /root/modules/skeleton/skeleton.mod.o;  true

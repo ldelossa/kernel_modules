@@ -1,0 +1,1 @@
+cmd_/root/modules/current/current.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /root/modules/current/current.ko /root/modules/current/current.o /root/modules/current/current.mod.o;  true

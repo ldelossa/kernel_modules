@@ -1,0 +1,1 @@
+cmd_/root/modules/thread_info/thread_info.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /root/modules/thread_info/thread_info.ko /root/modules/thread_info/thread_info.o /root/modules/thread_info/thread_info.mod.o;  true

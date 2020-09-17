@@ -1,0 +1,1 @@
+cmd_/root/modules/thread_info/Module.symvers := sed 's/ko$$/o/' /root/modules/thread_info/modules.order | scripts/mod/modpost     -o /root/modules/thread_info/Module.symvers -e -i Module.symvers   -T -

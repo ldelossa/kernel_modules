@@ -1,0 +1,1 @@
+cmd_/root/modules/waitqueue/waitqueue.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /root/modules/waitqueue/waitqueue.ko /root/modules/waitqueue/waitqueue.o /root/modules/waitqueue/waitqueue.mod.o;  true

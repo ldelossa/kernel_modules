@@ -1,0 +1,1 @@
+cmd_/root/modules/process_enumeration/processes.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /root/modules/process_enumeration/processes.ko /root/modules/process_enumeration/processes.o /root/modules/process_enumeration/processes.mod.o;  true
